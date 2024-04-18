@@ -12,8 +12,8 @@
     <meta name="author" content="Tuo Nome">
     <meta name="robots" content="index, follow">
     <!--CSS-->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css\cssReset.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css\navbar.css">
     <link rel="stylesheet" href="css\variabili.css">
     <link rel="stylesheet" href="css\footer.css">
@@ -21,7 +21,9 @@
     <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Ysabeau+SC:wght@1..1000&display=swap"
+        rel="stylesheet">
 
     <!--*bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -33,7 +35,7 @@
     <nav class="navbar  navbar-expand-md navGlass fixed-top" id="header">
         <div class="container-fluid">
             <div onclick="refreshPage()" id="logo" class="">
-                <p class="w-100 h-100"> <strong> Alberto Cannoni</strong></p>
+                <img class="w-100 h-100" src="assets\images\logo.png" alt="">
             </div>
             <button id="hamburger"
                 class="navbar-toggler collapsed d-flex d-md-none flex-column  justify-content-around ombra"
@@ -66,16 +68,41 @@
     <div id="site-container">
         <div id="Pool">
             <header>
-                <h1>Show Technician & Lighting Designer</h1>
-                <p>Specialized in Opera Theatre Lighting</p>
+                <h1>Lighting Designer e illuminotecnico</h1>
+                <p>Specializzato in teatro d'Opera</p>
             </header>
             <main>
                 <section id="about">
-                    <h2>About Me</h2>
-                    <p>I am a showbiz technician specializing in lighting with a focus on Opera Theatre. Fast, precise,
-                        and
-                        responsible, I thrive in high-stress environments. If you can imagine it, I can bring it to
-                        life.</p>
+                    <h4>BREVEMENTE SU DI ME</h4>
+                    <article id="experience">La mia <strong> formazione artistica</strong>, viene affiancata da
+                        <strong>solide
+                            conoscenze tecniche</strong>. Conosco le fasi
+                        necessarie alla messa in scena di uno spettacolo dalla progettazione alla messa in scena.
+                        </br></br>
+                        La mia
+                        esperienza lavorativa è iniziata nel 2005 nel teatro della mia città natale grazie al mio mestro
+                        di pittura, poi proseguito al
+                        <strong>Rossini Opera Festival</strong>, prima come elettricista, poi come datore luci.
+                        </br></br>
+                        In questa importante istituzione ho avuto l'onore di collaborare con importanti team creativi e
+                        registi:
+                        <strong> Luca Ronconi, Pier Luigi pizzi, Damiano Michieletto, Graham Vick</strong> e altri;
+                        negli tanti anni di
+                        festival ho realizzato e programmato spettacoli anche di elevatà complessità.
+                        </br></br>
+                        Negli anni, durante la stagioni invernali ho collaborato, girando per tutta Italia con diverse
+                        compagnie private e pubbliche.
+                    portando in tour spettacoli di prosa, Opera e Musical</br></br> In campo
+                        illuminotecnico ho un esperienza a 360 gradi: dalla progettazione alla gestione del cantiere e
+                        organizzazione del lavoro: dal
+                        montaggio, puntamenti, programmazione degli effetti, esecuzione dello spettacolo e tournee.
+                        </br></br>
+                        Nel
+                        corso degli anni ho anche firmato le luci per diversi spettacoli sia come titolare che come
+                        assistente lighting designer.
+                        
+                        Nel 2022 ho aperto la mia ditta individuale
+                    </article>
                 </section>
 
                 <section id="skills">
@@ -83,20 +110,31 @@
                     <ul>
                         <li>Lighting Design</li>
                         <li>Scenography</li>
-                        <li>Technical Proficiency</li>
-                        <li>Project Management</li>
-                        <li>Attention to Detail</li>
-                        <li>Stress Management</li>
+                        <li>Gestione clienti</li>
+                        <li>Gestione fornitori</li>
+                        <li>Direzione tecnica</li>
+                        <li>Project management</li>
+                    </ul>
+                </section>
+                <section id="skills">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Attentione ai dettagli</li>
+                        <li>Gestione dello stress</li>
+                        <li>Doti di leadership</li>
+                        <li>Creatività</li>
+                        <li>Gentilezza</li>
+                        <li>Puntualità</li>
                     </ul>
                 </section>
             </main>
 
-                <section id="portfolio">
-                    <h2>Portfolio</h2>
-                    <p>Coming Soon...</p>
-                </section>
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <p>Coming Soon...</p>
+            </section>
         </div>
-        
+
 
 
 
@@ -122,7 +160,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
