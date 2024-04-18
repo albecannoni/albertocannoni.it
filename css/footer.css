@@ -1,0 +1,52 @@
+/**------------------------------------------ FOOTER -----------------------------------------------*/
+footer {
+    background-color: var(--colore1Glass);
+    width: 100vw;
+    min-height: 20vh;
+    /* border: green 3px solid; */
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 0px 5px 1px rgba(10, 31, 59, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #FooterBox{
+    min-height: 20vh;
+    width: 90vw;
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: var(--colore2);
+  }
+  #FooterBox > article{
+    /* border: 3px solid rebeccapurple; */
+    width: 70%;
+    min-height: auto;  
+    
+  } 
+  
+  .footerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 3vh;
+    margin-bottom: 0px;
+  }
+  
+  #socialNetwork img{
+  height: auto;
+  width: 10vw;
+  
+  }
+  
+ 
+  
+  
+  
+  

@@ -1,0 +1,12 @@
+/**----------------------------------------------- VARIABILI -------------------------------------------------*/
+:root {
+
+    /*COLORI*/
+    --colore1: rgb(80, 211, 157);
+    --colore1Glass: rgba(80, 211, 156, 0.653);
+    --colore2: #4b4453;
+    --colore3: #d7d7d7d1;
+    --testo: black;
+    --colore5: rgba(235, 104, 4, 0.55);
+    --galleggiante: linear-gradient(0deg, #19191d 0%, #222327 50%, #ebdcf5 100%);
+}

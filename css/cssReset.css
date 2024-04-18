@@ -1,0 +1,118 @@
+/* CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles */
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Remove default padding */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: var(--testo);
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove text-decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove outline */
+button,
+input,
+textarea,
+select {
+  outline: none;
+}
+
+/* Remove focus outline for mouse users */
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active,
+select:focus,
+select:active {
+  outline: none;
+}
+
+/* Reset images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove table border */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Reset button */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove default input styles */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="search"],
+input[type="date"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
