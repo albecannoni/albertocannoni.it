@@ -7,3 +7,6 @@ function refreshPage() {
 
 function init(){
     console.log('init');}
+
+
+let comingSoon = document.addEventListener('click', ()=>{alert("Coming soon!")});

@@ -46,6 +46,14 @@ footer {
 
 }
 
+#contactInfo{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: 2.3vh;
+}
+
 
 @media screen and (min-width: 767px) {
 
