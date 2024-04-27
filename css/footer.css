@@ -49,10 +49,22 @@ footer {
 #contactInfo{
   /* border: 2px solid red; */
   display: flex;
+  flex-direction: row;
   align-items: center;
+  /* justify-content: space-between; */
   padding: 0;
   margin-top: 2.3vh;
 }
+
+#contactInfo img{
+  height: 10px !important;
+  margin-right: 15px;
+  padding: 0;
+  margin-bottom: 13px;
+  
+}
+
+
 
 
 @media screen and (min-width: 767px) {
